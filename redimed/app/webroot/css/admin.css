@@ -1,0 +1,374 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color: #FDFDFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#contenedor {
+	font-size: 11px;
+	width: 100%;
+	text-align: left;
+	background-color: #FFFFFF;
+	height: auto!important; /* para los browsers buenos */
+	height: 560px; /* para IE5+ */
+	min-height: 560px; /* para los browsers buenos */
+}
+
+div#contenedor div#cabecera {
+	float: left;
+	width: 100%
+}
+
+div#contenedor div#cabecera img {
+	float: left;
+}
+
+div#contenedor div#cabecera div.titulo {
+	float: right;
+}
+
+div#contenedor div#cabecera div.titulo h1 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div#contenedor div#cabecera div.titulo h2 {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div#contenedor div#cuerpo {
+	float: left;
+	width: 100%;
+}
+div#contenedor {
+	width: 99%;
+}
+div#pie {
+	width: 99%;
+}
+div#contenedor div#pie {
+	background-color: #ACCFE8;
+	float: left;
+	min-height: 20px;
+	text-align: center;
+	color: #3366CC;
+	font-size: 10;
+	font-weight: bold;
+	padding: 8px 5px 5px 5px;
+}
+
+div.clear {
+	clear: both;
+}
+
+.oculto {
+	display: none;
+}
+
+div.redondeado {
+	-moz-border-radius: 6px; /* Para Firefox*/
+	border-radius: 6px; /* Para el resto de navegadores que soporten esquinas redondeadas */
+}
+
+div.listado {
+	float: left;
+	width: 100%;
+}
+
+div.listado table {
+	border-collapse: separate;
+	border: solid 1px #ACCFE8;
+	margin: 10px;
+	min-width: 400px;
+	text-align: left;
+}
+
+div.listado thead {
+	background-color: #ACCFE8;
+}
+
+div.listado td {
+	padding: 4px;
+}
+
+div.listado IMG {
+	height: 17px;
+}
+
+div.listado th {
+	background-color: #ACCFE8;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3366CC;
+	padding: 4px;
+	border: 1px solid #9EAFE3;
+}
+
+div.listado .acciones {
+	text-align: left;
+	float: right;
+}
+
+div.formulario {
+	float: left;
+}
+
+div.formulario table {
+	border-collapse: separate;
+	border: solid 1px #B4DED5;
+	margin: 10px;
+	min-width: 400px;
+}
+
+div.formulario td {
+	padding: 5px;
+	margin: 1px;
+	font-family: arial;
+}
+
+div.formulario thead th {
+	background-color: #ACCFE8;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3366CC;
+	padding: 5px;
+	border: 1px solid #C5D2DB;
+}
+
+div.formulario .submit {
+	padding: 5px;
+	text-align: right;
+}
+
+div.mini_mapa div.googlemap {
+	float: left;
+	width: 500px;
+	height: 300px;
+}
+
+div#buscador {
+	background-color: #CDEB8B;
+	border: solid 1px #4D6A0B;
+	height: auto;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+div#buscador table tbody td input {
+	padding-left: 3px;
+}
+
+input {
+	color: #6F6F6F;
+}
+
+div.error-message {
+	border: solid 1px #E81D0A;
+	background-color: #F2C8C4;
+	padding: 0 5px;
+}
+
+div.message {
+	border: solid 1px #F2B55F;
+	background-color: #F2EB5F;
+	padding: 0 5px;
+	margin: 3px;
+}
+
+div.centrar {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+}
+
+div#ver dl{
+	float: left;
+	clear: both;
+	background-color: #999999;
+	padding: 1px;
+	width: 600px;
+}
+div#ver dt{
+	float: left;
+	clear: left;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #BCEF55;
+	width: 155px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	min-height: 17px;
+}
+
+div#ver dd{
+	float: left;
+	text-align: left;
+	margin-left: 2px;
+	padding-left:2px;
+	padding-top: 4px;
+	margin-bottom: 1px;
+	background-color: #FFFFFF;
+	min-width: 440px;
+	font-size: 12px;
+}
+
+#menu_especifico {
+	float: left;
+	font-size: 12px;
+	width: 100%;
+	height: 25px;
+	border: 1px solid #ACCFE8;
+	background: #DBEBF6;
+}
+#menu_especifico div {
+	float: left;
+	padding: 3px 10px;
+	color: #3366CC;
+}
+
+#menu_especifico div:hover {
+	background: #ACCFE8;
+	font-weight: bold;
+}
+
+#menu_especifico IMG {
+	cursor: pointer;
+}
+
+#menu_especifico a{
+	text-decoration: none;
+	color: #3366CC;
+	font-weight: bold;
+}
+
+#menu {
+	float: left;
+	font-size: 12px;
+	width: 100%;
+	height: 21px;
+	border-bottom: 2px solid #ACCFE8;
+}
+
+#datos_sesion {
+	float: right;
+}
+
+#menuh {
+	float: left;
+}
+
+#menuh ul, li {
+	list-style-type: none;
+}
+
+#menuh ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menuh li {
+	float: left;
+}
+
+#menuh a {
+	text-decoration: none;
+	color: #3366CC;
+	display: block;
+	padding: 3px 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#menuh a#primero {
+	border-left: 1px solid #ACCFE8;
+}
+
+#menuh li:hover {
+	background: #ACCFE8;
+	font-weight: bold;
+}
+
+#menuh_activo {
+	background: #ACCFE8;
+	font-weight: bold;
+}
+
+.centrado {
+	text-align: center;
+}
+
+#datos_sesion {
+	font-size: 12px;
+	margin: 0px;
+	padding: 2px 2px 5px 2px;
+	background: #ACCFE8;
+}
+
+#datos_sesion a{
+	font-weight: bold;
+	color: #3366CC;
+}
+
+div#filtros {
+	float: left;
+	font-size: 12px;
+	padding: 2px 0px 2px 0px;
+	display: block;
+	margin: 5px;
+	width: 100%;
+}
+
+div#paginacion {
+	float: left;
+	text-align: center;
+	display: block;
+}
+/** Paging **/
+div.paging {
+	color: #ccc;
+	margin-top: 1em;
+	clear:both;
+}
+div.paging span.disabled {
+	color: #ddd;
+	display: inline;
+}
+div.paging span.current {
+	color: #c73e14;
+}
+div.paging span a {
+}
+
+div.elemento H1 {
+	font-size: 12px;
+	color: #3366CC;
+	font-weight: bold;
+	margin: 20px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background: #ACCFE8;
+}
+
+.altrow {
+	background-color: #DBEBF6;
+}
+
+.borde {
+	border: solid 1px #CCD8DF;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+div#carga_archivos {
+	float: left;
+}

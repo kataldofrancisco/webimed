@@ -1,0 +1,2 @@
+1417203066
+a:3:{s:9:"CodComuna";a:7:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:5;s:3:"key";s:7:"primary";s:7:"collate";s:15:"utf8_unicode_ci";s:7:"charset";s:4:"utf8";}s:11:"GlosaComuna";a:6:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:20;s:7:"collate";s:15:"utf8_unicode_ci";s:7:"charset";s:4:"utf8";}s:9:"CodRegion";a:6:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:2;s:7:"collate";s:15:"utf8_unicode_ci";s:7:"charset";s:4:"utf8";}}

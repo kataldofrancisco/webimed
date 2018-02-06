@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #FDFDFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#contenedor {
+	font-size: 11px;
+	padding-bottom: 30px;
+	width: 1004px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+
+	height: auto!important; /* para los browsers buenos */
+	height: 560px; /* para IE5+ */
+	min-height: 560px; /* para los browsers buenos */
+}
+
+div#contenedor div#cabecera {
+	text-align: center;
+}
+
+div#contenedor div#cuerpo {
+	padding-top: 200px;
+	text-align: center;
+}
+
+div#contenedor div#cuerpo div.logo_imed {
+	margin-bottom: 10px;
+}
+
+#contenedor #pie {
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+require 'rubygems'
+require 'railsless-deploy'
+require 'capistrano/ext/multistage'
+
+load 'config/deploy'
+
+set :stages, %w(qa qa_ns produccion produccion_ns)
+set :default_stage, "qa"
+set (:deploy_to) {File.join("","var","www","applications","#{application}_#{current_stage}")}
+set :shared_children, [".htaccess", "app/config/core.php", "app/config/database.php", "app/webroot/.htaccess"]
+
+namespace :deploy do
+  task :finalize_update do
+    run "chmod -R g+w #{latest_release}" if fetch(:group_writable, true)
+    run "mkdir #{latest_release}/app/tmp"
+    run "mkdir #{latest_release}/app/tmp/logs"
+    run "mkdir #{latest_release}/app/tmp/cache"
+    run "mkdir #{latest_release}/app/tmp/cache/models"
+    run "mkdir #{latest_release}/app/tmp/cache/persistent"
+    run "chmod 777 -R #{latest_release}/app/tmp"
+    shared_children.each do |shared_child|
+      run "ln -sf #{File.join(shared_path,shared_child)} #{File.join(latest_release,shared_child)}"
+    end
+  end
+end

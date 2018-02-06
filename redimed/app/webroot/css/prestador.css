@@ -1,0 +1,217 @@
+div#paneles {
+	width: 100%;
+}
+
+div#paneles div.panel_izquierdo {
+	border: 1px solid #73880A;
+	float: left;
+	width: 20%;
+	height: 460px;
+}
+
+div#paneles div.panel_izquierdo div.titulo {
+	padding: 5px;
+	background-color: #CDEB8B;
+	font-weight: bold;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap {
+	height: 437px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.cargando_lugares {
+	text-align: center;
+	margin-top: 30px;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.cargando_lugares h1 {
+	color: #3F4C6B;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.sin_lugares {
+	text-align: center;
+	margin-top: 30px;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.sin_lugares h1 {
+	color: #CC0000;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar {
+	padding: 5px;
+	cursor: pointer;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar {
+	background-color: #FFFFFF;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar:hover {
+	background-color: #EEEEEE;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar_seleccionado {
+	background-color: #FFFF88;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar_seleccionado:hover {
+	background-color: #FFFF88;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar img.lugar_icono {
+	float: left;
+	margin-right: 10px;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion {
+	float: left;
+	width: 82%;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion h1 {
+	color: #3F4C6B;
+	font-weight: bold;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion h2 {
+	color: #3F4C6B;
+	font-weight: bold;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion img {
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion ul {
+	margin-top: 5px;
+	padding-left: 10px;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion a.desplegar_prestadores {
+	color: #184080;
+}
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion a.desplegar_prestadores:hover {
+	color: #184080;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion a.desplegar_prestadores {
+	text-decoration: none;
+}
+
+div#paneles div.panel_izquierdo div#direcciones_googlemap div.lugar div.lugar_descripcion div.no_operativo {
+	color: #CC0000;
+}
+
+div#paneles div.panel_derecho {
+	border: 1px solid #000;
+	float: right;
+	width: 79%;
+	height: 460px;
+}
+
+div#paneles div.panel_derecho div.googlemap {
+	width: 100%;
+	height: 100%;
+}
+
+div#paneles div.panel_derecho div#map div.infoValorizacion {
+	padding: 5px;
+	background-color: #356AA0;
+	color: #FFFF88;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+}
+
+div#paneles div.panel_derecho div#map div.infoValorizacion a {
+	color: #FFFF88;
+	text-decoration: none;
+}
+
+div#paneles div.panel_derecho div#map div.infoValorizacion a:hover {
+	color: #FFFF88;
+	text-decoration: underline;
+}
+
+div.globo_info {
+}
+
+div.globo_info h1 {
+	color: #184080;
+	font-weight: bold;
+}
+
+div.globo_info h2 {
+	color: #aaaaaa;
+}
+
+div.globo_info ul {
+	color: #184080;
+	font-weight: bold;
+}
+
+div.globo_info a {
+	font-size: 9px;
+	color: #184080;
+	text-decoration: none;
+}
+
+div.globo_info a:hover {
+	text-decoration: underline;
+}
+
+div.globo_info img {
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+div.globo_info div {
+	margin-top: 5px;
+}
+
+div#buscador select {
+	width: 160px;
+}
+
+div#buscador input {
+	margin-left: 2px;
+	width: 20em;
+}
+
+div#buscador table td {
+	padding: 2px;
+}
+
+div#demasiados_resultados {
+	background-color: #FFFF88;
+	text-align: center;
+	width: 450px;
+	height: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	border: 1px solid #C79810;
+	position: absolute;
+	left: 40%;
+	top: 200px;
+	z-index: 1000;
+}
+
+div#prestador_valores table {
+	border: solid 1px #96C635;
+	width: 100%;
+}
+
+div#prestador_valores th {
+	background-color: #96C635;
+}
+
+div.error {
+	padding: 5px;
+}

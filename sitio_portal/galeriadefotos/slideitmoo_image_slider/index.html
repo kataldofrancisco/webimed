@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SlideItMoo - MooTools 1.2 image slider</title>
+<link rel="stylesheet" type="text/css" href="stylesheet/styles.css" />
+
+<script language="javascript" type="text/javascript" src="script/mootools-1.2-core.js"></script>
+<script language="javascript" type="text/javascript" src="script/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="script/SlideItMoo.js"></script>
+<script language="javascript" type="text/javascript">
+window.addEvent('domready', function(){
+	/* thumbnails example , links only */
+	new SlideItMoo({itemsVisible:5, // the number of thumbnails that are visible
+					currentElement: 0, // the current element. starts from 0. If you want to start the display with a specific thumbnail, change this
+					thumbsContainer: 'thumbs',
+					elementScrolled: 'thumb_container',
+					overallContainer: 'gallery_container'});
+	
+	/* thumbnails example , div containers */
+	new SlideItMoo({itemsVisible:5, // the number of thumbnails that are visible
+					currentElement: 0, // the current element. starts from 0. If you want to start the display with a specific thumbnail, change this
+					thumbsContainer: 'thumbs2',
+					elementScrolled: 'thumb_container2',
+					overallContainer: 'gallery_container2'});
+					
+	/* banner rotator example */
+	new SlideItMoo({itemsVisible:1, // the number of thumbnails that are visible
+					showControls:0, // show the next-previous buttons
+					autoSlide:2500, // insert interval in milliseconds
+					currentElement: 0, // the current element. starts from 0. If you want to start the display with a specific thumbnail, change this
+					transition: Fx.Transitions.Bounce.easeOut,
+					thumbsContainer: 'banners',
+					elementScrolled: 'banner_container',
+					overallContainer: 'banners_container'});
+});
+</script>
+</head>
+
+<body>
+<div id="container">
+	<h1>&nbsp;</h1>	
+	<!--thumbnails slideshow begin-->
+	<div id="gallery_container">	
+		<div id="thumb_container">			
+			<div id="thumbs">
+				<a href="gallery/full/DC080302018.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DC080302018.jpg" width="84" height="84" /></a>	
+				<a href="gallery/full/DC080302028.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DC080302028.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DC080302030.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DC080302030.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DC080302040.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DC080302040.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DSC02825.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC02825.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DSC02841.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC02841.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DSC02865.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC02865.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DSC02891.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC02891.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DSC02916.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC02916.jpg" width="84" height="84" /></a>
+				<a href="gallery/full/DSC02959.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC02959.jpg" width="84" height="84" /></a>	
+				<a href="gallery/full/DSC03032.jpg" rel="lightbox[galerie]" target="_blank"><img src="gallery/thumb/DSC03032.jpg" width="84" height="84" /></a>	
+			</div>			
+		</div>
+	</div>	
+	
+	
+</div>	
+	
+</body>
+</html>

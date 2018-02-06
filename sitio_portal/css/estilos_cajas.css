@@ -1,0 +1,38 @@
+
+.txt_caja1 {
+	font-family: "Arial", "Helvetica", lucida, verdana, geneva, sans-serif;
+	font-size:11px;
+	color: #333333;
+	font-weight: bold;
+	background-color: #E6EEF2;
+	height: 16px;
+	padding-left: 3px;
+
+}
+.txt_caja2 {
+	font-family: "Arial", "Helvetica", lucida, verdana, geneva, sans-serif;
+	font-size:11px;
+	color: #555555;
+	font-weight: bold;
+	background-color: #F5F9FA;
+	height: 16px;
+	padding-left: 3px;
+}
+.txt_caja3 {
+	font-family: "Arial", "Helvetica", lucida, verdana, geneva, sans-serif;
+	font-size:11px;
+	color: #1F427C;
+	font-weight: bold;
+	background-color: #F5F9FA;
+	height: 16px;
+	padding-left: 3px;
+}
+.txt_caja4 {
+	font-family: "Arial", "Helvetica", lucida, verdana, geneva, sans-serif;
+	font-size:11px;
+	color: #4781AB;
+	font-weight: bold;
+	background-color: #F3F3F3;
+	height: 16px;
+	padding-left: 3px;
+}

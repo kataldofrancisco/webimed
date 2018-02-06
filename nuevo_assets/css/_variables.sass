@@ -1,0 +1,47 @@
+html
+    font-size: 16px!important
+//colores
+$blanco: #fff
+$gris_claro: #A5A5A5
+$gris_oscuro: #626262
+$verde: #23CF5F
+$verde_oscuro: #20C058
+$azul: #5295C4
+$lila_oscuro: #4B4F65
+//fuentes tipograficas
+$lato: 'Lato', sans-serif
+$fjalla: 'Fjalla One', sans-serif
+$lora: 'Lora', serif
+//grosor fuentes- solo lato
+$bold: 900
+$medium: 400
+$light: 300
+//tamaños fuentes
+$chica: 1.1em
+$normal: 1.3em
+$grande: 2em
+$mas_grande: 3em
+$extra_grande: 5em
+//Media Queries
+$phone: "(min-width: 300px)"
+$tablet: "(min-width: 768px) and (max-width: 1023px)"
+$desktop: "(min-width: 1024px)"
+//efectos
+=transition($transition)
+    -webkit-transition: $transition
+    -moz-transition: $transition
+    -o-transition: $transition
+    transition: $transition
+//mixin
+@mixin cover-background($img-uri) 
+    background: url($img-uri) no-repeat center center
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+@mixin cover-background-fixed($img-uri) 
+    background: url($img-uri) no-repeat center center fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover

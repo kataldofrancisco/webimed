@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK REL="Shortcut Icon" HREF="imgs/imes.ico"> 
+<title>I-MED ::: En línea con la salud</title>
+ 
+<style type="text/css">
+<!--
+.contacto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+	text-align: center;
+}
+.legal {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	text-align: center;
+}
+.titulos {
+	color: #0799E4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.texto {
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+.titulostarjeta {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #009EDF;
+	text-align: left;
+}
+.titulostexto {
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #EB6796;
+	text-align: left;
+}
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 
+	text-align: justify;
+	font-size: 12px;
+	text-align: justify;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	font-size: 10px;
+	text-decoration: none;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.txt_caja4 {
+	color: #666;
+}
+.txt_caja3 {
+	font-weight: bold;
+	color: #666;
+}
+.titulos a strong {
+	color: #666;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('imgs/boton_nosotros_bn.jpg','imgs/boton_medicos.jpg','imgs/boton_prestadores.jpg','imgs/boton_financiadores.jpg','imgs/boton_empleadores.jpg','imgs/boton_mediosdepago.jpg','imgs/boton_seguridad.jpg','imgs/boton_servicios.jpg','imgs/boton_pacientes.jpg','imgs/boton_nosotros.jpg')">
+<table width="909" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="90" valign="top"><a href="http://www.i-med.cl"><img src="../imgs/logoimedverde.jpg" width="87" height="148" border="0" align="left"/></a></td>
+    <td width="1" height="151" class="menu"><a href="pacentes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pacientes','','../imgs/boton_pacientes.jpg',1)"></a></td>
+    <td width="89" class="menu"><a href="../nosotros.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nosotros','','../imgs/boton_nosotros.jpg',1)"><img src="../imgs/boton_nosotros_bn.jpg" name="nosotros" width="83" height="151" border="0" align="right" id="nosotros" /></a></td>
+    <td width="8" class="menu"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /></td>
+    <td width="83" class="menu"><a href="../pacientes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pacientes','','../imgs/boton_pacientes.jpg',1)"><img src="../imgs/boton_pacientes_bn.jpg" alt="pacientes" name="pacientes" width="83" height="151" border="0" id="pacientes" /></a></td>
+    <td width="7" class="menu"><img src="../imgs/entrebotones.jpg" width="7" height="151" align="right" /></td>
+    <td width="83" class="menus"><a href="../medicos.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('medicos','','../imgs/boton_medicos.jpg',1)"><img src="../imgs/boton_medicos_bn.jpg" alt="medicos" name="medicos" width="83" height="151" border="0" id="medicos" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../prestadores.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('prestadores','','../imgs/boton_prestadores.jpg',1)"><img src="../imgs/boton_prestadores_bn.jpg" alt="prestadores" name="prestadores" width="83" height="151" border="0" align="left" id="prestadores" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../financiadores.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('financiadores','','../imgs/boton_financiadores.jpg',1)"><img src="../imgs/boton_financiadores_bn.jpg" alt="financiadores" name="financiadores" width="83" height="151" border="0" align="left" id="financiadores" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../empleadores.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('empleadores','','../imgs/boton_empleadores.jpg',1)"><img src="../imgs/boton_empleadores_bn.jpg" alt="empleadores" name="empleadores" width="83" height="151" border="0" align="left" id="empleadores" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../mediosdepago.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('medios de pago','','../imgs/boton_mediosdepago.jpg',1)"><img src="../imgs/boton_mediosdepago_bn.jpg" alt="medios de pago" name="medios de pago" width="83" height="151" border="0" align="left" id="medios de pago" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../seguridad.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('seguridad','','../imgs/boton_seguridad.jpg',1)"><img src="../imgs/boton_seguridad_bn.jpg" alt="seguridad" name="seguridad" width="83" height="151" border="0" align="left" id="seguridad" /></a></td>
+    <td width="93"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../servicios.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('servicios','','../imgs/boton_servicios.jpg',1)"><img src="../imgs/boton_servicios_bn.jpg" alt="servicios" name="servicios" width="83" height="151" border="0" align="left" id="servicios" /></a></td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="509" height="50"><span class="contacto"><img src="../imgs/fono.png" alt="" width="16" height="15" align="right" /></span></td>
+    <td width="3" valign="middle" class="contacto">&nbsp;</td>
+    <td width="48" align="right" nowrap="nowrap" class="contacto">714 9500 </td>
+    <td width="24" nowrap="nowrap" class="contacto">|</td>
+    <td width="69" nowrap="nowrap" class="contacto"><a href="../contacto.html" class="contacto" target="_self">Contáctenos </a></td>
+    <td width="24" align="center" nowrap="nowrap" class="lineas"><span class="contacto" >|</span></td>
+    <td width="84" nowrap="nowrap" class="contacto"><a href="../soporte.html" class="contacto" target="_self">Soporte Técnico</a></td>
+    <td width="22" nowrap="nowrap" class="contacto"> |</td>
+    <td width="107" align="right" nowrap="nowrap" class="contacto"><a href="../faq.html" class="contacto" target="_self">Preguntas Frecuentes</a></td>
+    <td width="19" align="right" nowrap="nowrap" class="contacto">&nbsp;</td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="../imgs/caja18.jpg" width="744" height="124" /></td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="669" height="7" valign="top">&nbsp;</td>
+    <td width="237" height="7"></td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="right" valign="middle" bgcolor="#FFFFFF" class="texto"><p><font color="#36C">V</font><a href="../caja18.html"><font color="#36C"><strong>olver a Prestadores Caja Los Andes»</strong></font></a></p></td>
+    <td width="19" align="right" valign="middle" bgcolor="#FFFFFF" class="texto">&nbsp;</td>
+  </tr>
+</table>
+<table width="909" align="center" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr height="20">
+      <td width="894" height="20" align="right"><table width="909" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="908" colspan="3" align="left"><table width="910" cellpadding="1" cellspacing="1">
+            <tbody>
+              <tr height="20">
+                <td width="49" height="20" class="txt_caja3">1</td>
+                <td width="122" class="txt_caja3">Arica               </td>
+                <td width="432" class="txt_caja4">Centro Médico Monte Sinai S.A.          </td>
+                <td width="292" class="txt_caja4">Esmeralda 1319</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Numedin S.A.                            </td>
+                <td class="txt_caja4">Argentina 2249</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Dialisis y laboratorio Arica Ltda.      </td>
+                <td class="txt_caja4">18 de Septiembre 933</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Lab. Clínico del Norte                  </td>
+                <td class="txt_caja4">18 de Septiembre 1154</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Laboratorio Clínico Central Arica       </td>
+                <td class="txt_caja4">Almirante Latorre 580</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Lab. Cl. San Jose Ltda. (Juan Noe)      </td>
+                <td class="txt_caja4">Juan Noe 1370</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Bio Net (Arica)                         </td>
+                <td class="txt_caja4">18 de Septiembre 1375</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Clínica San Jose                        </td>
+                <td class="txt_caja4">Juan Noe 1370</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">Jacqueline Gonzalez Cepeda              </td>
+                <td class="txt_caja4">Almirante La torre 580 OF 526</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Arica               </td>
+                <td class="txt_caja4">CENTRO OPTICO Y AUDIOLOGICO LTDA (LH)   </td>
+                <td class="txt_caja4">Colon 375</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Centro Med. Costanera                   </td>
+                <td class="txt_caja4">Pedro Lagos 1090</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Soc. Inversiones Norte Grande           </td>
+                <td class="txt_caja4">Arturo Fernandez 2165</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Soc. Inversiones Norte Grande (Megasalud</td>
+                <td class="txt_caja4">Ramirez 1162, tercer piso 1162, tercer piso</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Centro Radiologico Costanera            </td>
+                <td class="txt_caja4">Orella 769</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Centro Radiologico Tamarugal            </td>
+                <td class="txt_caja4">Avenida Arturo Prat 1170</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Clinicum Lab. Automatiz. Ltda. (R. Perez</td>
+                <td class="txt_caja4">Ramon Perez Opazo Nº 3165 Local 2</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Clinicum Laboratorio Automatizado Ltda. </td>
+                <td class="txt_caja4">Esmeralda 731</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Lab. Clínico Arauco (Iquique)           </td>
+                <td class="txt_caja4">Ramirez 1246 3º Piso</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Lab. Clínico Automatizado Hermac        </td>
+                <td class="txt_caja4">Riquelme 777</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Laboratorio Clínico Playa Brava         </td>
+                <td class="txt_caja4">Jose Francisco Vergara 3327</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Rescard                                 </td>
+                <td class="txt_caja4">Riquelme 776 Piso 5</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Clínica Tarapaca                        </td>
+                <td class="txt_caja4">Barros Arana 1550</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Clínica Iquique                         </td>
+                <td class="txt_caja4">O Higgins 103</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Jorge Mollo Oyanadel(LH)                </td>
+                <td class="txt_caja4">Latorre 729</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Nilo Alberto Carvajal Gonzalez          </td>
+                <td class="txt_caja4">Av.Riquelme 776 Oficina 103</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">CENTRO OPTICO Y AUDIOLOGICO LTDA (L.H)  </td>
+                <td class="txt_caja4">Vivar # 980</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Alvarez Muñoz y Vigueras Ltda.          </td>
+                <td class="txt_caja4">O Higgins 510 OF 204</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Inst. Traumatologico Norte              </td>
+                <td class="txt_caja4">Padre Hurtado 2269</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">1</td>
+                <td class="txt_caja3">Iquique             </td>
+                <td class="txt_caja4">Claudio Pinto Sandoval                  </td>
+                <td class="txt_caja4">Ramirez 1231</td>
+              </tr>
+              <tr class="txt_caja3">
+                <td height="20" colspan="4" align="right"><a href="#top"><strong><u>Subir</u></strong></a></td>
+              </tr>
+              <tr>
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Tocopilla           </td>
+                <td class="txt_caja4">Soc. Comercial Olivia Aide y Cia. Ltda. </td>
+                <td class="txt_caja4">21 de Mayo 1513</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Oasis S.A.C.                            </td>
+                <td class="txt_caja4">Av central sur 1891</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Clínica El Loa                          </td>
+                <td class="txt_caja4">Granaderos 2924</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Diagnolab S.A. (Megasalud Calama)       </td>
+                <td class="txt_caja4">Granaderos 1474</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Laboratorio Clínico Tecmed Ltda.        </td>
+                <td class="txt_caja4">Cobija 2191 Ofic. 108</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Soc. Radiologica Tara (Megasalud Calama)</td>
+                <td class="txt_caja4">Granaderos 1474</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Sociedad Radiologica Tara               </td>
+                <td class="txt_caja4">Central Sur - Villa Ayquina 1813</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Ricardo Beltran Rojas                   </td>
+                <td class="txt_caja4">Granaderos 1366</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Centro Médico y Dental San Jose Ltda.   </td>
+                <td class="txt_caja4">Avda. Granaderos 1686</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Calama              </td>
+                <td class="txt_caja4">Centro Médico Y Dental Santiago Norte Li</td>
+                <td class="txt_caja4">Camarones 4202</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">CENTRO MÉDICO INTEGRAL ANDRADE SALAZAR Y</td>
+                <td class="txt_caja4">Matta 1839 Oficina 1204</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Agcdent odontologia ltda. (LH)          </td>
+                <td class="txt_caja4">Washington N° 2675 Of. 1401 </td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Comercial E Inmobiliaria Sal S.A        </td>
+                <td class="txt_caja4">Pedro Aguirre Cerda 8889</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Servicios Anatomopatologicos Ltda.      </td>
+                <td class="txt_caja4">Esmeralda 1807 OF. 402</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Sociedad Odontológica Javiera(LH)       </td>
+                <td class="txt_caja4">San Martín 2301</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4"> Diagnolab S.A. (Megasalud Antofagasta) </td>
+                <td class="txt_caja4">Sucre 251</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Clínica Radiologica S.A                 </td>
+                <td class="txt_caja4">Avda. Argentina 1601</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Clinilab (Gral Velásquez )              </td>
+                <td class="txt_caja4">General Velásquez 1285</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Clinilab (Jose Santos Ossa)             </td>
+                <td class="txt_caja4">Jose Santos Ossa 2065</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Clinilab (Manuel Antonio Matta)         </td>
+                <td class="txt_caja4">Manuel Antonio Matta 1891</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Clinilab (Prat)                         </td>
+                <td class="txt_caja4">Prat 264</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Diag. Médicos Por Imagenes (Balmaceda)  </td>
+                <td class="txt_caja4">Balmaceda 2634</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Diag. Médicos Por Imagenes (Borgoño)    </td>
+                <td class="txt_caja4">General Borgoño 957</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Diag. Médicos Por Imagenes (Sucre)      </td>
+                <td class="txt_caja4">Sucre 251</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Lab. Clínico Blanco (Baquedano)         </td>
+                <td class="txt_caja4">Baquedano 325</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Lab. Clínico Blanco (Matta)             </td>
+                <td class="txt_caja4">Matta 1839 Oficina 301</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Lab. de Radio Inmunoanalisis Ltda.(lh)  </td>
+                <td class="txt_caja4">14 de Febrero Esq. Copiapo 1985</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Lab. Doctor`s Lab Ltda. (Argentina)     </td>
+                <td class="txt_caja4">Avda. Argentina 1609 Dpto.304</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Lab. Doctor`s Lab Ltda. (Matta 1945)    </td>
+                <td class="txt_caja4">Matta 1945 of 904</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Lab. Doctor`s Lab Ltda. (P. A. Cerda)   </td>
+                <td class="txt_caja4">Avda. Pedro Aguirre Cerda 8889</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Laboratorio Ehrlich                     </td>
+                <td class="txt_caja4">San Martin 2390</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Soc de Serv de Lab y Diag Clin del Norte</td>
+                <td class="txt_caja4">Av.Carrera edificio alcalde 1899 of.201</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Centro de Espec. Odontológicas (LH)     </td>
+                <td class="txt_caja4">Pedro Aguierre Cerda 8905</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Centros Espec. Odontologicas (LH)       </td>
+                <td class="txt_caja4">Matta 1839 Ofic. 904 1839 Ofic. 904</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Araucana Salud (Antofagasta)            </td>
+                <td class="txt_caja4">Latorre 2318 al 2336</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Bio Net (Antofagasta)                   </td>
+                <td class="txt_caja4">Grecia 840</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Clínica Antofagasta                     </td>
+                <td class="txt_caja4">Matta 1945</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Laboratorio Clínica Antofagasta         </td>
+                <td class="txt_caja4">Manuel Antonio Matta 1868</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">DORIS MOJICA CARVAJAL (LH)              </td>
+                <td class="txt_caja4">Latorre 2324 Ofic. 304</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Consulta Psicologica Radic              </td>
+                <td class="txt_caja4">14 de Febrero 1985 of. 408</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Adriana Eguiluz E.I.R.L.                </td>
+                <td class="txt_caja4">Coquimbo 712 of 203</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Centro Oftalmologico Laser Ceola        </td>
+                <td class="txt_caja4">General Borgoño # 780</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Marcelo Cesped Limitada                 </td>
+                <td class="txt_caja4">21 de Mayo 770</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Oftalmonor                              </td>
+                <td class="txt_caja4">Condell 1973</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">Sociedad de Profesionales Mednor Ltda.  </td>
+                <td class="txt_caja4">Argentina 1609</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">2</td>
+                <td class="txt_caja3">Antofagasta         </td>
+                <td class="txt_caja4">VICUÑA BLANCO LTDA.                     </td>
+                <td class="txt_caja4">14 de Febrero 1985 loc 101</td>
+              </tr>
+              <tr class="txt_caja3">
+                <td height="20" colspan="4" align="right"><a href="#top"><strong><u>Subir</u></strong></a></td>
+              </tr>
+              <tr>
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Chañaral            </td>
+                <td class="txt_caja4">Cristobal Vergara Medicina              </td>
+                <td class="txt_caja4">Carlos Condell Nº 871</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Centro Médico y Diagnóstico Atacama S.A.</td>
+                <td class="txt_caja4">Chañarcillo N° 331 N° 331</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Inversiones Medicas Centroped Ltda.     </td>
+                <td class="txt_caja4">Luis Bravo 1455</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Araucana Salud S.A.(LH) Copiapo         </td>
+                <td class="txt_caja4">Los Carrera 851</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Alejandra  De la Cuadra Matamala (L.H)  </td>
+                <td class="txt_caja4">Colipi 570 Of. 415</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Victor Rolando Couchot Bustos           </td>
+                <td class="txt_caja4">Vallejos # 535 Of. 507 Edific</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Soc. Profesionales Médicos Cedimed      </td>
+                <td class="txt_caja4">Salas 173</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Copiapó             </td>
+                <td class="txt_caja4">Ingrid Corina Sandoval Riquelme (L.HUELL</td>
+                <td class="txt_caja4">Colipi 484 Oficina 404</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">3</td>
+                <td class="txt_caja3">Vallenar            </td>
+                <td class="txt_caja4">Laboratorio Clínico Vallenar Ltda.      </td>
+                <td class="txt_caja4">Arturo Prat 1251</td>
+              </tr>
+              <tr class="txt_caja3">
+                <td height="20" colspan="4" align="right"><a href="#top"><strong><u>Subir</u></strong></a></td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Diagnoec Ltda.                          </td>
+                <td class="txt_caja4">Huanhuali 330</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Kether Salud Ltda.                      </td>
+                <td class="txt_caja4">Av. Estadio 1590</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Integramedica La Serena S.A.            </td>
+                <td class="txt_caja4">Alberto Solari 1400</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Lab. Clínico Analyzer (Juan Soldado)    </td>
+                <td class="txt_caja4">Juan Soldado 450</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Lab. Clínico Analyzer (Matta)           </td>
+                <td class="txt_caja4">Matta 309</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Lab. Clínico Analyzer (Republica)       </td>
+                <td class="txt_caja4">Republica 762</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Lab. Clínico Sta. Maria (Balmaceda)     </td>
+                <td class="txt_caja4">Balmaceda 1015</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Lab. Clínico Sta. Maria (Esmeralda)     </td>
+                <td class="txt_caja4">Esmeralda 2475</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Lab. Clínico Sta. Maria (Peñi)          </td>
+                <td class="txt_caja4">Juan de Dios Peñi 431</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Araucana Salud S.A. (LH) La Serena      </td>
+                <td class="txt_caja4">Brasil 361</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Bio Net (La Serena)                     </td>
+                <td class="txt_caja4">Balmaceda 947</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Mauricio Eduardo Gavilan Nuñez          </td>
+                <td class="txt_caja4">George Washington 600</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4"> Soc. Prof de la Salud Dental Uno Ltda. </td>
+                <td class="txt_caja4">Cienfuegos 475 local 255</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Cerim Ltda                              </td>
+                <td class="txt_caja4">Juan de Dios Peni 470</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Gomez y Bresky y Cia. Ltda.             </td>
+                <td class="txt_caja4">Las Americas 1804</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Centro Médico y Dental Atheus Chile Ltda</td>
+                <td class="txt_caja4">Saturnino Mery 233</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">SOC DE PROFESIONALES HUANHUALI LIMITADA </td>
+                <td class="txt_caja4">Huanhuali 440</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">La Serena           </td>
+                <td class="txt_caja4">Sociedad Dental Kennedy (L. HUELLA)     </td>
+                <td class="txt_caja4">Eduardo Barra 336 Ofic. 205</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Instituto Médico Vidasalud              </td>
+                <td class="txt_caja4">Alessandri 288, El Llano</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Soc. Clínica Odontologica Consmag (LH)  </td>
+                <td class="txt_caja4">Los Alelies 255 sindempart</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Lab. Clínico Sta. Maria (Linares)       </td>
+                <td class="txt_caja4">Linares, Tierras Blancas 401</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Lab. Clínico Sta. Maria (Los Clarines)  </td>
+                <td class="txt_caja4">Los Clarines 715</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">LABORATORIO CLÍNICO XIMA LTDA.          </td>
+                <td class="txt_caja4">ARICA REGTO ESQ. LOS LAGOS PEÑUELAS S/N</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Servicio De Salud Coquimbo Hospital De C</td>
+                <td class="txt_caja4">Videla S/N</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Bio Net (Coquimbo)                      </td>
+                <td class="txt_caja4">Profesor Zepeda 2</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Alvaro Campillay Gaete                  </td>
+                <td class="txt_caja4">De la Barca 59</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Patricio Bertin Espinoza (LECTOR HUELLA)</td>
+                <td class="txt_caja4">Los PImientos 459</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">SOC MEDICA OSSES Y GALLEGUILLOS         </td>
+                <td class="txt_caja4">COLO-COLO 580</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Soc. Medica Scanner Coquimbo            </td>
+                <td class="txt_caja4">Alessandri 748</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Coquimbo            </td>
+                <td class="txt_caja4">Sociedad Dental Kennedy Ltda.           </td>
+                <td class="txt_caja4">John Kennedy 721</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Ovalle              </td>
+                <td class="txt_caja4">Inversiones Ayca y Zeballos Ltda.       </td>
+                <td class="txt_caja4">Socos 76</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Ovalle              </td>
+                <td class="txt_caja4">LABORATORIO DE BIOANALISIS CLÍNICO TECNO</td>
+                <td class="txt_caja4">Miguel Aguirre 280 Oficina 46 - 49</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Ovalle              </td>
+                <td class="txt_caja4">Araucana Salud S.A.(LH) Ovalle          </td>
+                <td class="txt_caja4">Libertad 46 y 50</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Ovalle              </td>
+                <td class="txt_caja4">Claudio Christopher Riveros Sepulveda   </td>
+                <td class="txt_caja4">Vicuña Mackenna 102 of.14</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Monte Patria        </td>
+                <td class="txt_caja4">Sociedad Valle Salud Limitada           </td>
+                <td class="txt_caja4">Balmaceda 107</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Illapel             </td>
+                <td class="txt_caja4">SERV MED Y DENT PABLO ANDRES AVILA CANDI</td>
+                <td class="txt_caja4">Independencia 386</td>
+              </tr>
+              <tr height="20">
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Illapel             </td>
+                <td class="txt_caja4">Bio Net (Illapel)                       </td>
+                <td class="txt_caja4">Independencia 386</td>
+              </tr>
+              <tr>
+                <td height="20" class="txt_caja3">4</td>
+                <td class="txt_caja3">Salamanca           </td>
+                <td class="txt_caja4">Centro Médico Salamanca Ltda            </td>
+                <td class="txt_caja4">Matilde Salamanca 400</td>
+              </tr>
+              <tr class="txt_caja3" height="20">
+                <td height="20" colspan="4" align="right"><a href="#top"><strong><u>Subir</u></strong></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<table width="895" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="legal" ><center >
+      I-Med S.A. - 
+      Teléfono: 714 9500 - Email: comercial@i-med.cl - 
+      © 2012 Derechos Reservados - I-Med
+    </center></td>
+  </tr>
+</table>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2122417-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

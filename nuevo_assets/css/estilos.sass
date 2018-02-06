@@ -1,0 +1,421 @@
+@import _variables
+
+body
+    background-color: $blanco
+    font-family: 'Lato', sans-serif
+    font-weight: $light
+//aligner
+.aligner
+    display: flex
+    align-items: center
+    justify-content: center
+.aligner_phone
+    display: flex
+    align-items: center
+    justify-content: center
+    @media #{$phone}
+        display: block
+    @media #{$tablet}
+        display: flex
+    @media #{$desktop}
+        display: flex
+.aligner-item 
+    @media #{$phone}
+        max-width: 100%
+    @media #{$tablet}
+        max-width: 100%
+    @media #{$desktop}
+        max-width: 50%
+.aligner-item-top 
+    align-self: flex-start
+.aligner-item-bottom 
+    align-self: flex-end
+//fin aligner
+//paddings
+.no_padding
+    padding: 0
+.padding_1
+    padding: 1%
+.padding_4
+    padding: 4%
+.padding_6
+    padding: 6%
+.padding_10
+    padding: 10%
+.padding_12
+    padding: 12%
+.padding_15
+    padding: 15%
+.padding_20
+    padding: 20%
+//fin paddings
+//headings
+h3
+    font-family: $fjalla
+    font-size: $chica
+    color: $verde
+    letter-spacing: 2.01px
+    line-height: 13px
+h2
+    font-family: $fjalla
+    font-size: $grande
+    color: $gris_oscuro
+    letter-spacing: 2px
+    line-height: 31px
+p
+    font-family: $lato
+    font-size: $normal
+    color: $gris_claro
+    font-weight: $light
+    letter-spacing: 0px
+    line-height: 20px
+//fin headings
+.navbar-default
+    background-color: $blanco
+    border-color: $blanco
+.navbar
+    border-radius: 0px
+    min-height: 81px
+    margin-bottom: 0
+    position: static
+.navbar-brand
+    padding: 0px
+    img
+        width: 100%
+        max-width: 82px
+.navbar-collapse
+    margin-top: 19px
+.navbar-default
+    .navbar-toggle
+        margin-top: 20px
+.navbar-default
+    .navbar-nav
+        li
+            a
+                font-family: $lato
+                font-weight: $light
+                color: $gris_oscuro
+                font-size: $normal
+                &:hover
+                    color: $verde
+.intro
+    @include cover-background-fixed("../img/assets/intro_bg.jpg")
+    position: relative
+    margin: 0 auto
+    top: 0
+    width: 100%
+    @media #{$phone}
+        text-align: center
+        min-height: 600px
+    @media #{$tablet}
+        text-align: center
+        min-height: 700px
+    @media #{$desktop}
+        text-align: left
+        min-height: 800px
+    h1
+        font-family: $fjalla
+        font-size: $extra_grande
+        color: $blanco
+    p
+        font-family: $lato
+        font-size: $grande
+        color: $blanco
+        font-weight: $light
+        line-height: 32px
+//BOTONES
+.btn_verde
+    font-size: $normal
+    font-family: $lato
+    font-weight: $light
+    box-shadow: 0 1px 4px 0 rgba(98,98,98,0.39)
+    border-radius: 100px
+    padding: 12px 35px 12px 35px
+    background-color: $verde
+    color: $blanco
+    @include transition(all 0.4s ease-in-out)
+    margin-top: 30px
+    a
+        color: $blanco
+        &:hover
+        text-decoration: none
+    span
+        padding: 3px 0px 1px 9px
+        font-size: 1em
+    &:hover
+        background-color: $verde_oscuro
+        color: $blanco
+        background-position: -100% 100%
+        box-shadow: 0 4px 20px 0 rgba(98, 98, 98, 0.3)
+.btn_verde_invertido
+    font-size: $normal
+    font-family: $lato
+    font-weight: $light
+    box-shadow: 0 1px 4px 0 rgba(98,98,98,0.39)
+    border-radius: 100px
+    padding: 12px 35px 12px 35px
+    background-color: $blanco
+    color: $verde
+    @include transition(all 0.4s ease-in-out)
+    a
+        color: $verde
+        &:hover
+            text-decoration: none
+            color: $blanco
+    span
+        padding: 3px 0px 1px 9px
+        font-size: 1em
+    &:hover
+        background-color: $verde_oscuro
+        color: $blanco
+        background-position: -100% 100%
+        box-shadow: 0 4px 20px 0 rgba(98, 98, 98, 0.3)
+.somos
+    background-color: $blanco
+    margin-top: -60px
+    z-index: 2
+    position: relative
+    @media #{$phone}
+        margin-top: 0px
+    @media #{$tablet}
+        margin-top: -60px
+    @media #{$desktop}
+        margin-top: -90px
+.somos
+    .img_intro
+        @include cover-background("../img/assets/video.jpg")
+        min-height: 450px
+.titulos_secciones
+    padding-top: 7%
+    padding-bottom: 7%
+    h2
+        font-family: $fjalla
+        font-size: $grande
+        color: $gris_oscuro
+.card
+    text-align: center
+    a
+        text-decoration: none
+    .thumbnail
+        padding: 7%
+        border: none
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.08)
+        border-radius: 5px
+        @include transition(all 0.4s ease-in-out)
+        &:hover
+            box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2)
+        img
+            width: 70px
+            margin: 0 auto
+.portal_web
+    margin-top: 50px
+    margin-bottom: 50px
+    padding: 60px 0px
+    background-image: linear-gradient(-139deg, $azul 0%, $verde 100%)
+.portal_web
+    .container
+        text-align: center
+        div
+            h3
+                color: $blanco
+                font-size: $grande
+                font-family: $fjalla
+                @media #{$phone}
+                    line-height: 37px
+                @media #{$tablet}
+                    line-height: 37px
+                @media #{$desktop}
+                    line-height: 0px
+footer
+    background-color: $lila_oscuro
+    padding: 4%
+    text-align: left
+    margin-top: 30px
+    @media #{$phone}
+        text-align: center
+    @media #{$tablet}
+        text-align: center
+    @media #{$desktop}
+        text-align: left
+.text_footer
+    p
+        color: $blanco
+        font-family: $lato
+        font-size: $normal
+    img
+        width: 100%
+        max-width: 90px
+        padding-bottom: 2%
+.menu_footer
+    @media #{$phone}
+        margin-top: 10px
+    @media #{$tablet}
+        margin-top: 10px
+    @media #{$desktop}
+        margin-top: 70px
+
+    ul
+        li
+            list-style: none
+            a
+                color: $blanco
+                font-family: $lato
+                font-size: $chica
+                @include transition(all 0.4s ease-in-out)
+                &:hover
+                    opacity: 0.4
+                    text-decoration: none
+.mega-drop-inner
+    position: absolute
+    width: 100%
+    margin: 0 auto
+    ul
+        list-style: none
+        li
+            padding-top: 5px
+            padding-bottom: 5px
+            a
+                font-family: $fjalla!important
+                font-size: $normal
+                color: $blanco
+                &:hover
+                    text-decoration: none
+    @media #{$phone}
+        padding: 10%
+        min-width: 300px
+    @media #{$tablet}
+        padding: 20%
+        min-width: 500px
+    @media #{$desktop}
+        padding: 40%
+        min-width: 700px
+
+.licencia_link
+    background-image: linear-gradient(-139deg, #26E3AD 0%, #5295C4 100%)
+    padding-top: 10%
+    padding-bottom: 10%
+
+.h3_licencia
+    h3
+        line-height: 2!important
+.margin_top_btn
+    margin-top: 42px
+
+//noticias
+.intro_noticias
+    margin-top: 5%
+    h1
+        font-family: $fjalla
+        font-size: $mas_grande
+        @media #{$phone}
+            text-align: center
+        @media #{$tablet}
+            text-align: left
+        @media #{$desktop}
+            text-align: left
+    img
+        width: 100%
+        margin-top: 20px
+        margin-bottom: 40px
+    h3
+        font-family: $fjalla
+        font-size: $grande
+        color: $gris_oscuro
+        line-height: 36px
+        @media #{$phone}
+            text-align: center
+        @media #{$tablet}
+            text-align: left
+        @media #{$desktop}
+            text-align: left
+            margin-top: 30px
+.thumbnail
+    border-radius: 0px!important
+    border: none
+.box_min
+    h3
+        font-family: $fjalla
+        font-size: $normal
+        color: $gris_oscuro
+        @media #{$phone}
+            text-align: center
+        @media #{$tablet}
+            text-align: left
+        @media #{$desktop}
+            text-align: left
+
+    p
+        font-size: $chica
+        color: $gris_claro
+        font-weight: $light
+.shadow_box
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(230,230,230,1)
+    -moz-box-shadow: 0px 2px 8px 0px rgba(230,230,230,1)
+    box-shadow: 0px 2px 8px 0px rgba(230,230,230,1)
+    @include transition(all 0.2s ease-in-out)
+    &:hover
+        -webkit-box-shadow: 0px 2px 17px 0px rgba(204,204,204,1)
+        -moz-box-shadow: 0px 2px 17px 0px rgba(204,204,204,1)
+        box-shadow: 0px 2px 17px 0px rgba(204,204,204,1)
+.card-block
+    h4
+        font-family: $fjalla
+        font-size: $normal
+        font-weight: $medium
+        text-align: left
+        padding-top: 20px
+    h6 
+        font-family: $lato
+        font-size: $chica
+        font-weight: $medium
+        text-align: left
+        color: $gris_claro
+    p
+        font-family: $lato
+        font-size: $chica
+        font-weight: $light
+        text-align: left
+.noticias_conatiner
+    margin-top: 40px
+    margin-bottom: 40px
+.card-img-top
+    width: 100%
+a
+    .hover_card
+        text-decoration: none
+.detalle_noticia    
+    padding: 2% 22%
+    text-align: left
+    h2
+        margin-bottom: 5%
+        line-height: 36px
+        font-family: $lora
+    p
+        font-size: $normal
+        font-weight: 100
+        color: #757575
+        line-height: 26px
+        font-family: $lora
+.atras
+    background: #BCBCBC
+    border-radius: 100px
+    padding: 10px 40px
+    color: $blanco
+        
+.bg_modal
+    img
+        width: 100%
+.modal_news
+    color: $gris_oscuro
+    h1
+    font-family: $fjalla
+    h3
+        color: $gris_claro
+        line-height: 25px
+        font-size: 20px
+        font-family: $lato
+
+.strong_noticias
+    color: #000000
+    font-weight: 900
+    font-size: 1.3rem

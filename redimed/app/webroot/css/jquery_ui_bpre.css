@@ -1,0 +1,12 @@
+.ui-widget {
+	font-size: 11px;
+}
+
+.ui-widget .ui-dialog-title {
+	font-size: 13px;
+}
+
+.ui-widget .ui-dialog-title img {
+	padding-right: 5px;
+	vertical-align: middle;
+}

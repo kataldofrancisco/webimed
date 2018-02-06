@@ -1,0 +1,32 @@
+Referencias del Manual de Bono 2.0
+
+1.- El Manual ha sido desarrollado utilizando la aplicacion Adobe® e-Learning Suite 2.5
+Por lo tanto todos los archivos son editables desde esta aplicacion.
+
+2.- La relacion de archivos fuentes estan en la carpeta "Manual_FUENTES" y son las siguientes. Su nombre explica el tema que cubren:
+2.1 A00_MenuInicial.cptx
+2.2 A01_InicioSesion.cptx
+2.3 A02_Caja.cptx
+2.4 A03_EmisionDatos.cptx
+2.5 A04_EmisionPresta.cptx
+2.6 A05_Pagos.cptx
+2.7 A06_AnularBono.cptx
+2.8 A07_CuadrarCaja.cptx
+
+3.- Los archivos para Internet estan en la Carpeta Manual_INTERNET.
+Sus correspondientes nombres formato html y Flash (swf) son :
+3.1 A00.htm  (.swf)
+3.2 A01.htm  (.swf)
+3.3 A02.htm  (.swf)
+3.4 A03.htm  (.swf)
+3.5 A04.htm  (.swf)
+3.6 A05.htm  (.swf)
+3.7 A06.htm  (.swf)
+3.8 A07.htm  (.swf)
+
+4.- Para subir el Manual o todos los archivos a internet se deben colocar en un mismo directorio todos los archivos *.htm, *.swf y el archivo "standard.js"
+
+6.- La llamada al archivo A00.htm es el que debe iniciar (o llamar) el manual en internet pues se trata del Menu Inicial.
+
+7.- El manual Bono 2.0 tambien esta en version Adobe PDF. Los archivos del manual en PDF estan en la carpeta Manual_PDF
+Para abrirlos, el usuario debe tener instalado la version del Adobe Reader 9 o superior. Consta de Archivos *.pdf y archivos *.swf

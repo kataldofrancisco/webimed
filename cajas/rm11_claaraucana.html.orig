@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK REL="Shortcut Icon" HREF="imgs/imes.ico"> 
+<title>I-MED ::: En línea con la salud</title>
+ 
+<style type="text/css">
+<!--
+.contacto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+	text-align: center;
+}
+.legal {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	text-align: center;
+}
+.titulos {
+	color: #0799E4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.texto {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+.titulostarjeta {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #009EDF;
+	text-align: left;
+}
+.titulostexto {
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #EB6796;
+	text-align: left;
+}
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 
+	text-align: justify;
+	font-size: 12px;
+	text-align: justify;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	font-size: 10px;
+	text-decoration: none;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.txt_caja4 {
+	color: #666;
+}
+.txt_caja3 {
+	font-weight: bold;
+	color: #666;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('imgs/boton_nosotros_bn.jpg','imgs/boton_medicos.jpg','imgs/boton_prestadores.jpg','imgs/boton_financiadores.jpg','imgs/boton_empleadores.jpg','imgs/boton_mediosdepago.jpg','imgs/boton_seguridad.jpg','imgs/boton_servicios.jpg','imgs/boton_pacientes.jpg','imgs/boton_nosotros.jpg')">
+<table width="909" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="90" valign="top"><a href="http://www.i-med.cl"><img src="../imgs/logoimedverde.jpg" width="87" height="148" border="0" align="left"/></a></td>
+    <td width="1" height="151" class="menu"><a href="pacentes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pacientes','','../imgs/boton_pacientes.jpg',1)"></a></td>
+    <td width="89" class="menu"><a href="../nosotros.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nosotros','','../imgs/boton_nosotros.jpg',1)"><img src="../imgs/boton_nosotros_bn.jpg" name="nosotros" width="83" height="151" border="0" align="right" id="nosotros" /></a></td>
+    <td width="8" class="menu"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /></td>
+    <td width="83" class="menu"><a href="../pacientes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pacientes','','../imgs/boton_pacientes.jpg',1)"><img src="../imgs/boton_pacientes_bn.jpg" alt="pacientes" name="pacientes" width="83" height="151" border="0" id="pacientes" /></a></td>
+    <td width="7" class="menu"><img src="../imgs/entrebotones.jpg" width="7" height="151" align="right" /></td>
+    <td width="83" class="menus"><a href="../medicos.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('medicos','','../imgs/boton_medicos.jpg',1)"><img src="../imgs/boton_medicos_bn.jpg" alt="medicos" name="medicos" width="83" height="151" border="0" id="medicos" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../prestadores.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('prestadores','','../imgs/boton_prestadores.jpg',1)"><img src="../imgs/boton_prestadores_bn.jpg" alt="prestadores" name="prestadores" width="83" height="151" border="0" align="left" id="prestadores" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../financiadores.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('financiadores','','../imgs/boton_financiadores.jpg',1)"><img src="../imgs/boton_financiadores_bn.jpg" alt="financiadores" name="financiadores" width="83" height="151" border="0" align="left" id="financiadores" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../empleadores.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('empleadores','','../imgs/boton_empleadores.jpg',1)"><img src="../imgs/boton_empleadores_bn.jpg" alt="empleadores" name="empleadores" width="83" height="151" border="0" align="left" id="empleadores" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../mediosdepago.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('medios de pago','','../imgs/boton_mediosdepago.jpg',1)"><img src="../imgs/boton_mediosdepago_bn.jpg" alt="medios de pago" name="medios de pago" width="83" height="151" border="0" align="left" id="medios de pago" /></a></td>
+    <td width="91"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../seguridad.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('seguridad','','../imgs/boton_seguridad.jpg',1)"><img src="../imgs/boton_seguridad_bn.jpg" alt="seguridad" name="seguridad" width="83" height="151" border="0" align="left" id="seguridad" /></a></td>
+    <td width="93"><img src="../imgs/entrebotones.jpg" width="8" height="151" align="left" /><a href="../servicios.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('servicios','','../imgs/boton_servicios.jpg',1)"><img src="../imgs/boton_servicios_bn.jpg" alt="servicios" name="servicios" width="83" height="151" border="0" align="left" id="servicios" /></a></td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="509" height="50"><span class="contacto"><img src="../imgs/fono.png" alt="" width="16" height="15" align="right" /></span></td>
+    <td width="3" valign="middle" class="contacto">&nbsp;</td>
+    <td width="48" align="right" nowrap="nowrap" class="contacto">714 9500 </td>
+    <td width="24" nowrap="nowrap" class="contacto">|</td>
+    <td width="69" nowrap="nowrap" class="contacto"><a href="../contacto.html" class="contacto" target="_self">Contáctenos </a></td>
+    <td width="24" align="center" nowrap="nowrap" class="lineas"><span class="contacto" >|</span></td>
+    <td width="84" nowrap="nowrap" class="contacto"><a href="../soporte.html" class="contacto" target="_self">Soporte Técnico</a></td>
+    <td width="22" nowrap="nowrap" class="contacto"> |</td>
+    <td width="107" align="right" nowrap="nowrap" class="contacto"><a href="../faq.html" class="contacto" target="_self">Preguntas Frecuentes</a></td>
+    <td width="19" align="right" nowrap="nowrap" class="contacto">&nbsp;</td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="../imgs/cajalaaraucana.jpg" width="744" height="124" /></td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="669" height="7" valign="top">&nbsp;</td>
+    <td width="237" height="7"></td>
+  </tr>
+</table>
+<table width="909" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="293" valign="middle" bgcolor="#FFFFFF" class="texto"><p>&nbsp;</p></td>
+    <td width="616" bgcolor="#FFFFFF"><dl>
+      <table width="615" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td width="615" colspan="2" align="left" valign="middle"><table width="200" border="0" cellspacing="2" cellpadding="2">
+              <tbody>
+                <tr>
+                  <td class="titulos">Santiago</td>
+                </tr>
+                <tr>
+                  <td height="7"></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="left" valign="middle"><table width="616" cellpadding="1" cellspacing="1">
+              <tbody>
+                <tr height="20">
+                  <td width="320" height="20" class="txt_caja3">Centro Dental Matias Cousiño (L. HUELLA)</td>
+                  <td width="296" class="txt_caja4">Matias Cousiño 64 Ofic. 703</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Medical Policenter (Santiago)           </td>
+                  <td class="txt_caja4">Estado 115</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Darvision Ltda                          </td>
+                  <td class="txt_caja4">Bandera 101 3 Piso</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Serv. Med. y Asist. Fono Médica (L. HUEL</td>
+                  <td class="txt_caja4">Santa Rosa 1438</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">SERV. ODONT BEAUTYDENT S.A              </td>
+                  <td class="txt_caja4">AMUNATEGUI Nº 472</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">SERV.MED.INT.LORENA SALAS ROMERO EIRL(LH</td>
+                  <td class="txt_caja4">Nataniel Cox 1549</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Cea Ltda. (Agustinas)                   </td>
+                  <td class="txt_caja4">Agustinas 2328-A</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">PREST. MED. DR.ALBERTO HERRADA CURBELO  </td>
+                  <td class="txt_caja4">Tenderini 26 Of. 71</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Servicios Médicos Redmédica             </td>
+                  <td class="txt_caja4">San Antonio 540 Ofic. 509 - 510</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Soc. Médica Israelita de Beneficencia   </td>
+                  <td class="txt_caja4">Nataniel Cox 1558</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Amazonas S.A.                           </td>
+                  <td class="txt_caja4">Amazonas 675</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">C. Médico Miguel Leon Prado (Santiago)  </td>
+                  <td class="txt_caja4">Santa Rosa 1436</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Cemrad (Humeres y Baeza)                </td>
+                  <td class="txt_caja4">Santa Rosa 57 Depto. 401</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Baquedano                 </td>
+                  <td class="txt_caja4">Vicuña Mackenna 3 Ofic. 204</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Bulnes                    </td>
+                  <td class="txt_caja4">BULNES 139 Ofic. 87</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Franklin                  </td>
+                  <td class="txt_caja4">Franklin 1010 Piso 2</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Ignacio Castillo Roig     </td>
+                  <td class="txt_caja4">Tenderini 85 Ofic. 705</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Sad Ltda.                 </td>
+                  <td class="txt_caja4">Moneda 720 Oficina 301</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico San Sebastian Ltda.       </td>
+                  <td class="txt_caja4">Libertador Bernando O Higgins 2995 Local 95</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Torre Alameda Ltda.       </td>
+                  <td class="txt_caja4">San Antonio 19 Piso 6</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Cetra Medecin                           </td>
+                  <td class="txt_caja4">San Antonio 418 Ofic. 603</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Docthos Diagnóstico Médico              </td>
+                  <td class="txt_caja4">Guayaquil 510</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Instituto Chileno de Psicoterapia Breve </td>
+                  <td class="txt_caja4">San Antonio Nº 19 Of. 1802</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Instituto de Urologias y ETS Ltda.      </td>
+                  <td class="txt_caja4">Nataniel 47 Depto. 42</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">JARA Y COMPAÑIA S.A.                    </td>
+                  <td class="txt_caja4">Monjitas 743</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Julio Herrera Mendez                    </td>
+                  <td class="txt_caja4">Huérfanos 779 Of. 907</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Luis Roberto Zuñiga Perez y Cia Ltda    </td>
+                  <td class="txt_caja4">Moneda 720 dpto 910</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Medicenter S.A. (Santiago)              </td>
+                  <td class="txt_caja4">Mac-Iver 22 of. 101</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Medimag                                 </td>
+                  <td class="txt_caja4">Vicuna Mackenna 910</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Medimatic S.A. (Santiago)               </td>
+                  <td class="txt_caja4">Estado 10 piso 8</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Prestaciones Médicas Partenon Ltda.     </td>
+                  <td class="txt_caja4">Portugal 12 , Of. 25</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Schickhardt Ltda.                       </td>
+                  <td class="txt_caja4">Presidente Rios 50</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Soc. Médica y Maternidad Sierra Bella   </td>
+                  <td class="txt_caja4">Sierra Bella 1181</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Policlínico Arturo Prat Ltda.           </td>
+                  <td class="txt_caja4">Arturo Prat 162 Depto. 22</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">C. de Salud 18 de Septiembre (Santiago) </td>
+                  <td class="txt_caja4">Nataniel Cox 125</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Integramédica Alameda                   </td>
+                  <td class="txt_caja4">Bernardo O'higgins 644</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Integramédica Centro                    </td>
+                  <td class="txt_caja4">Huérfanos 1147</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Pontificia U. Católica (Marcoleta 352)  </td>
+                  <td class="txt_caja4">Marcoleta 352</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Pontificia U. Católica (Marcoleta)      </td>
+                  <td class="txt_caja4">Marcoleta 350</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">UTM Subterraneo Marcoleta (PUC)         </td>
+                  <td class="txt_caja4">Marcoleta 367</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Vida Integra (Alameda)                  </td>
+                  <td class="txt_caja4">Alameda 1620</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Pontificia U. Católica (Lira)           </td>
+                  <td class="txt_caja4">Lira 85</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">MÉDICOS DE FAMILIA LIMITADA             </td>
+                  <td class="txt_caja4">Diagonal Paraguay 481 Oficina 35</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Corp de Salud Laboral Camara Chilena de </td>
+                  <td class="txt_caja4">Alameda 4848</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Serv. Odontologicos (Stgo) (L.HUELLA    </td>
+                  <td class="txt_caja4">Estado 10 Piso 4</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Soc Odontologica Nueva Prevident Lt(LH) </td>
+                  <td class="txt_caja4">Agustinas 853, of 819</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Radiologico y Ecotomografico Ltda</td>
+                  <td class="txt_caja4">San Antonio 220 Dpto. 306</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Clínica Torre Alameda Ltda.             </td>
+                  <td class="txt_caja4">San Antonio 19 Of. 1101</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Clínica Central                         </td>
+                  <td class="txt_caja4">San Isidro 231</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Clínica Juan Pablo II                   </td>
+                  <td class="txt_caja4">Santa Rosa 1448</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Clínica Madre e Hijo                    </td>
+                  <td class="txt_caja4">Santa Rosa 1503</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Instituto Radiologico Cochrane (Stgo)   </td>
+                  <td class="txt_caja4">BULNES 80 Ofic. 52</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Lab. Perfil Bioquímico (Santiago)       </td>
+                  <td class="txt_caja4">Guayaquil 510 Ofic. 101</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Corp.de Salud Laboral C.CH.C. (Stgo.)   </td>
+                  <td class="txt_caja4">BULNES 79 Ofic. 76/77</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Corp.de Salud Laboral C.CH.C. (Stgo.2)  </td>
+                  <td class="txt_caja4">Alonso Ovalle 1493 Primer piso</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">HOSP. DE URG. A. PUB. ALEJANDRO DEL RIO</td>
+                  <td class="txt_caja4">Portugal 125</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Araucana Salud (Sta. Lucia)             </td>
+                  <td class="txt_caja4">Santa Lucía 360</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Bio Net (Gotuzzo)                       </td>
+                  <td class="txt_caja4">Almirante Gotuzzo 70- 1º Subterraneo</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Bio Net (Santiago)                      </td>
+                  <td class="txt_caja4">Vicuña Mackenna 210</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Sonorad (Santiago Centro)               </td>
+                  <td class="txt_caja4">Huérfanos 840</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Banoptica Ltda.                         </td>
+                  <td class="txt_caja4">Almirante Gotuzzo 82</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Mutual de Seguridad (Santiago)          </td>
+                  <td class="txt_caja4">Agustinas 1365</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Darsalud Ltda. (Santiago)               </td>
+                  <td class="txt_caja4">Bandera 101 3 Piso</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Sociedad Médica Vival                   </td>
+                  <td class="txt_caja4">Monjitas 843 Piso 5</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">FERNADO URRA LOPEZ (SANTIAGO) L.H.      </td>
+                  <td class="txt_caja4">ISMAEL VALDES VERGARA 826</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3"> Ingrid Gonzalez Paredes (L.H)          </td>
+                  <td class="txt_caja4">San Antonio 95</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Ana Sofia Veloso Alcota (LH)            </td>
+                  <td class="txt_caja4">Compañía Nº 2293</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Luz Bravo Villalobos                    </td>
+                  <td class="txt_caja4">San Isidro 231</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Marcelo Canto Tapia (LECTOR HUELLA)     </td>
+                  <td class="txt_caja4">Huérfanos 863 Ofic. 723</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Gliceris Casas Epuyao                   </td>
+                  <td class="txt_caja4">Libertador Bdo. O Higgins 5297</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Jorge Ruben Vivanco Arevalo             </td>
+                  <td class="txt_caja4">San Pablo 2116 piso 2</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">ROMMY LORENA VALDERRAMA LALAMA          </td>
+                  <td class="txt_caja4">Lord Cochrane 10</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Victor Areli Saavedra Gajardo           </td>
+                  <td class="txt_caja4">BULNES 79 ,Oficina 27-A</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">ANA LUISA CANDIA DIAZ                   </td>
+                  <td class="txt_caja4">Agustinas 715</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Douglas Alvarez Montalvo                </td>
+                  <td class="txt_caja4">Alameda B. O¨Higgins Nº 2825 Of.41 Piso 2</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Dres. Ivan Schilling y Maria Ferraz     </td>
+                  <td class="txt_caja4">Tenderini 85 Ofic. 51</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">JORGE GUZMAN PINEDA (LH)                </td>
+                  <td class="txt_caja4">Alameda B. O'Higgins 2909</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Juan Villarroel Gil                     </td>
+                  <td class="txt_caja4">Huérfanos 1178 Ofic. 717</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Oscar González Fuller                   </td>
+                  <td class="txt_caja4">Compañia 1390</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Patricio Villanueva Marin               </td>
+                  <td class="txt_caja4">Jose Victorino Lastarria 93</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">SERV. PROFESIONALES ANDRÉS BELLO S.A(LH)</td>
+                  <td class="txt_caja4">Echaurren 237</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">S. Médicos Laser Vision Ltda. (Santiago)</td>
+                  <td class="txt_caja4">Francisco Bilbao 385</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Acqua Plus Ltda.(LH)                    </td>
+                  <td class="txt_caja4">San Antonio 418 Ofic. 806</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">SAN ALBERTO  HURTADO  LTDA.(LH)         </td>
+                  <td class="txt_caja4">Ahumada 254 OF.307</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Médico Oftalmologico             </td>
+                  <td class="txt_caja4">Paris 764 Depto. 30</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Oftalmologico Valentin Letelier. </td>
+                  <td class="txt_caja4">Valentín Letelier 1381 Of. 1003</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Centro Salud Monseñor Carlos Casanueva  </td>
+                  <td class="txt_caja4">Marcoleta 377</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">IOPA (Santiago)                         </td>
+                  <td class="txt_caja4">Huérfanos 1147 Ofic. 346</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Maria Saavedra Diaz                     </td>
+                  <td class="txt_caja4">Santa Monica 2306</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Raul Astudillo Zuñiga                   </td>
+                  <td class="txt_caja4">Amunategui 49 Depto. 12</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" class="txt_caja3">Serv. Incrementales Médicos y Odont. Ltd</td>
+                  <td class="txt_caja4">CURICO 561</td>
+                </tr>
+                <tr height="20">
+                  <td height="20" colspan="3" align="right"><a href="#top"><strong><u>Subir<u></strong></a></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+        </tbody>
+    </table></td>
+    <td width="273" valign="top" bgcolor="#FFFFFF" class="titulos"><a href="../cajalaaraucana.html"><font color="#36C"><strong>Volver a Prestadores Caja La Araucana»</strong></font></a></td>
+  </tr>
+</table>
+<br />
+<table width="895" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="legal" ><center >
+      I-Med S.A. - 
+      Teléfono: 714 9500 - Email: comercial@i-med.cl - 
+      © 2012 Derechos Reservados - I-Med
+    </center></td>
+  </tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2122417-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,902 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>I-MED ::: En Línea con la salud</title>
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<LINK REL="Shortcut Icon" HREF="img/imed.ico">
+
+
+
+
+
+<script type="text/javascript" src="js/libreria.js"></script>
+
+<script type="text/javascript" src="javascript/prototype.js"></script>
+	<script type="text/javascript" src="javascript/effects.js"></script>
+	<script type="text/javascript" src="javascript/accordion.js"></script>
+    
+<script type="text/javascript">
+			
+			
+		//
+		//  In my case I want to load them onload, this is how you do it!
+		// 
+		Event.observe(window, 'load', loadAccordions, false);
+	
+		//
+		//	Set up all accordions
+		//
+
+		function loadAccordions() {
+			var topAccordion = new accordion('horizontal_container', {
+				classNames : {
+					toggle : 'horizontal_accordion_toggle',
+					toggleActive : 'horizontal_accordion_toggle_active',
+					content : 'horizontal_accordion_content'
+				},
+				defaultSize : {
+					width : 480
+				},
+				direction : 'horizontal'
+			});
+			
+			
+			var bottomAccordion = new accordion('vertical_container');
+			
+			var nestedVerticalAccordion = new accordion('vertical_nested_container', {
+			  classNames : {
+					toggle : 'vertical_accordion_toggle',
+					toggleActive : 'vertical_accordion_toggle_active',
+					content : 'vertical_accordion_content'
+				}
+			});
+			
+			// Open first one
+			bottomAccordion.activate($$('#vertical_container .accordion_toggle')[0]);
+			
+			// Open second one
+			topAccordion.activate($$('#horizontal_container .horizontal_accordion_toggle')[2]);
+		}
+
+	</script>    
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2122417-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+<body>
+
+<table width="915" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr><td height="5" colspan="21"></td></tr>
+
+<tr>
+  <td width="88" height="124"><a href="index.html"><img src="img/logo-imed.png" width="88" height="124" border="0"/></a></td>
+  <td width="9"></td>
+  <td width="90"><a href="nosotros.html" target="_self" onmouseover="MM_swapImage('b1','','img/nosotroscolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/nosotros.png" name="b1" width="90" height="124" id="b1" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="pacientes.html" target="_self" onmouseover="MM_swapImage('b2','','img/pacientescolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/pacientes.png" name="b2" width="90" height="124" id="b2" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="medicos.html" target="_self" onmouseover="MM_swapImage('b3','','img/medicoscolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/medicos.png" name="b3" width="90" height="124" id="b3" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="prestadores.html" target="_self" onmouseover="MM_swapImage('b4','','img/prestadorescolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/prestadores.png" name="b4" width="90" height="124" id="b4" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="financiadores.html" target="_self" onmouseover="MM_swapImage('b5','','img/financiadorescolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/financiadores.png" name="b5" width="90" height="124" id="b5" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="empleadores.html" target="_self" onmouseover="MM_swapImage('b6','','img/empleadorescolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/empleadores.png" name="b6" width="90" height="124" id="b6" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="mediosdepago.html" target="_self" onmouseover="MM_swapImage('b7','','img/mediosdepagocolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/mediosdepago.png" name="b7" width="90" height="124" id="b7" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="plataforma.html" target="_self" onmouseover="MM_swapImage('b8','','img/plataformacolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/plataforma.png" name="b8" width="90" height="124" id="b8" border="0"/></a></td>
+  <td width="1"></td>
+  <td width="90"><a href="servicios.html" target="_self" onmouseover="MM_swapImage('b9','','img/servicioscolor.png',1)" onmouseout="MM_swapImgRestore()"><img src="img/servicios.png" name="b9" width="90" height="124" id="b9" border="0"/></a></td>
+</tr>
+<tr><td height="8" colspan="21"><img src="img/sombra-header.png" width="915" height="8" /></td></tr>
+</table>
+
+<table width="915" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td width="16" height="63" rowspan="3"></td>
+  <td class="textos_header">&nbsp;</td>
+  <td width="27" valign="bottom" rowspan="2" class="texto_telefono"><img src="img/iconotelefono.png" width="19" height="19" /></td>
+  <td width="190" valign="bottom" rowspan="2" class="texto_telefono">+562 2714 9500</td>
+  </tr>
+<tr>
+  <td width="682" valign="bottom" class="textos_header"><a href="contacto.html" target="_self" class="textos_header">Contáctenos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="descargas.html" target="_self" class="textos_header">Descargas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="faq.html" target="_self" class="textos_header">Preguntas Frecuentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://200.0.156.160/portalweb/" target="_blank" class="textos_header">Portal Web</a></td>
+  </tr>
+<tr>
+  <td class="textos_header">&nbsp;</td>
+  <td colspan="2" class="textos_header">&nbsp;</td>
+</tr>
+
+</table>
+
+<table width="915" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr><td width="680" height="146" rowspan="5"><img src="img/banner-faq.jpg" width="680" height="146" /></td>
+  <td width="17" height="146" rowspan="5"></td>
+  <td width="218" height="72"><a href="bono_electronico.html"><img src="img/botonbonoelectronicohome.png" width="215" height="72" border="0"/></a></td>
+</tr>
+<tr>
+  <td height="2"></td>
+</tr>
+<tr>
+  <td height="72"><a href="contacto.html" target="_self"><img src="img/botoncontactenoshome.png" alt="" width="215" height="72" border="0"/></a></td>
+</tr>
+<tr>
+  <td height="2"></td>
+</tr>
+
+
+</table>
+
+<table width="915" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr><td height="25" colspan="2"></td>
+  <td width="17" height="25"></td>
+  <td width="218" height="25"></td>
+</tr>
+
+<tr>
+  <td height="3" colspan="2"><img src="img/linea.png" width="680" height="1" /></td>
+  <td width="17" height="3"></td>
+  <td width="218" height="3"></td>
+</tr>
+
+<tr>
+<td width="16" height="71" rowspan="3" bgcolor="#FCFCFC" class="texto01"></td>
+<td width="664" rowspan="3" valign="middle" bgcolor="#FCFCFC" class="texto01">Resolvemos sus dudas sobre nuestros servicios.</td>
+<td width="17" height="71" rowspan="3"></td>
+<td width="218" height="36"><a href="soporte.html"><img src="img/botonsoporteonlinehome.png" width="218" height="36" border="0"/></a></td>
+</tr>
+<tr>
+  <td height="2"></td>
+</tr>
+<tr>
+  <td height="36"><a href="https://www.i-med.cl/sitio_portal/" target="_blank"><img src="img/botonportalcapacitacionhome.png" alt="" width="218" height="36" border="0"/></a></td>
+</tr>
+<tr><td height="1" colspan="2"><img src="img/linea.png" width="680" height="1" /></td></tr>
+
+<tr>
+  <td height="7" colspan="2"><img src="img/sombra-textobanner.png" width="680" height="7" /></td></tr>
+
+</table>
+
+
+<table width="915" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr><td height="15" colspan="2"></td></tr>
+<tr>
+  <td height="36"></td>
+  <td height="36" class="titulo_cuerpo">Preguntas Frecuentes</td>
+</tr>
+<tr>
+  <td height="18"></td>
+  <td height="18"><img src="img/linea.png" alt="" width="910" height="1" /></td>
+</tr>
+<tr>
+  <td width="16" height="225"></td>
+ <td align="left">
+ 
+ <div class="panel-group" id="accordion">
+ 
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Convenios</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="1">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#1" href="#collapseSub1">1. ¿Qué trámites debo hacer para conseguir nuevos Convenios con Fonasa e Isapres?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub1" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Usted debe gestionar personalmente con cada financiador, excepto convenio con Cruz Blanca que puede ser gestionado por I-Med, sólo si usted tiene bono papel.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="2">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#2" href="#collapseSub2">2. ¿Si un convenio no Valoriza que debo hacer?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub2" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe llamar a nuestro Centro de Atención de Usuarios al teléfono (02) 2714 9500 o enviar un correo a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a></div>
+                        </div>
+                     </div>
+                     
+                      <div class="panel panel-default" id="3">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#3" href="#collapseSub3">3.	¿Si un convenio no está cargado a quién debo llamar?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub3" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe llamar a nuestro Centro de Atención de Usuarios al teléfono (02) 2714 9500 o enviar un correo a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a></div>
+                        </div>
+                     </div>
+                     
+                        <div class="panel panel-default" id="4">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#4" href="#collapseSub4">4.	¿Si al ingresar a la aplicación el cajero no ve el convenio qué debo hacer?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub4" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Puede ingresar al botón mantención de cajeros y pasar los convenios al lado derecho, si no, puede ingresar a nuestro sitio web y conectarse vía remota para solicitar soporte.</div>
+                        </div>
+                     </div>
+                     
+                        <div class="panel panel-default" id="5">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#5" href="#collapseSub5">5.	¿Qué debo hacer si aparece el mensaje: No Existen Características de Pago según datos seleccionados?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub5" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe llamar a nuestro Centro de Atención de Usuarios al teléfono (02) 2714 9500 o enviar un correo a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a></div>
+                        </div>
+                     </div>
+                     
+                     
+                        <div class="panel panel-default" id="6">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#6" href="#collapseSub6">6.	¿Qué debo hacer si al realizar la cobranza indica error que está bloqueada?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub6" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe llamar a nuestro Centro de Atención de Usuarios al teléfono (02) 2714 9500 o enviar un correo a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a>
+para saber el motivo del bloqueo y qué pasos debe seguir.</div>
+                        </div>
+                     </div>
+                     
+                        <div class="panel panel-default" id="7">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#7" href="#collapseSub7">7.	¿Qué debo hacer para habilitar otros convenios?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub7" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe enviar un correo a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a>, que será gestionado por el Ejecutivo a cargo.</div>
+                        </div>
+                     </div>
+                     
+                        <div class="panel panel-default" id="8">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#8" href="#collapseSub8">8.	¿Si necesito cargar convenios en una nueva dirección qué debo hacer?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub8" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe enviar un correo a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a>, que será gestionado por el Ejecutivo a cargo.</div>
+                        </div>
+                     </div>
+                     
+       
+                     
+                </div>
+            </div>
+        </div>
+        
+        
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsedos">Requerimientos Técnicos</a>
+                </h4>
+            </div>
+            <div id="collapsedos" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="9">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#9" href="#collapseSub9">1. ¿Para instalar Bono Electrónico qué requisitos técnicos debo cumplir?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub9" class="panel-collapse collapse">
+                            <div class="panel-body txt1">
+SISTEMA OPERATIVO - NAVEGADOR (Browser)<br />
+• Windows XP Service Pack 3 - IE7 - IE8<br />
+• Windows 7 Service Pack 1 - IE8 - IE9<br />
+• Windows 8 Service Pack 1 - IE10<br />
+• Conexión a Internet (ADSL o Dedicado) mínimo 700 kbps<br />
+Un PC, cuyas características mínimas son:<br />
+• Procesador 1500 Mhz.<br />
+• 512 MB Ram <br />
+• 1 GB Disponible en Disco<br />
+• 1 Puerto USB Disponible<br />
+• Impresora Matriz de Punto, Laser o Tinta.<br />
+• Tarjeta de red (para conexión para red Lan, cable módem u otro sistema de comunicaciones). En caso contrario, un SLOT ISA o PCI.<br />
+IMPORTANTE<br />
+No soporta plataforma:<br />
+ Apple Macintosh<br />
+ Linux<br />
+Nota Considerar: La Instalación del sistema I-MED debe ser obligatoria en la unidad C:\</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="10">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#10" href="#collapseSub10">2. ¿Cuáles son los requirimientos técnicos para instalar Licencia Médica Electrónica?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub10" class="panel-collapse collapse">
+                            <div class="panel-body txt1">
+• Windows XP, Vista y 7<br />
+• Internet Explorer 7, 8 y 9<br />
+• Visor de PDF que maneje PDF versión 1.3. Ejemplo: Acrobat Reader 4 en adelante.<br />
+• Acceso a Internet: www.licencia.cl (IP: 200.0.156.44, puerto 80)<br />
+• Impresora Asociada
+</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsetres">Puntos Nuevos</a>
+                </h4>
+            </div>
+            <div id="collapsetres" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="11">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#11" href="#collapseSub11">1. ¿Cuál es el costo de la instalación de un nuevo punto de Bono Electrónico?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub11" class="panel-collapse collapse">
+                            <div class="panel-body txt1">
+                            En Santiago 2 UF + IVA.<br />
+En regiones 2,5 UF + IVA.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="12">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#12" href="#collapseSub12">2. ¿Cuánto se demoran en instalar un nuevo punto de Bono Electrónico?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub12" class="panel-collapse collapse">
+                            <div class="panel-body txt1">10 días hábiles.</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+        
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsecuatro">Instalaciones y Reinstalaciones</a>
+                </h4>
+            </div>
+            <div id="collapsecuatro" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="13">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#13" href="#collapseSub13">1.¿Cuánto se demoran en instalar un nuevo punto de Bono Electrónico?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub13" class="panel-collapse collapse">
+                            <div class="panel-body txt1">10 días hábiles.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="14">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#14" href="#collapseSub14">2. Si el equipo donde estaba instalado I-Med, se formateo, ¿necesito una reinstalación?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub14" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Si necesita una reinstalación.</div>
+                        </div>
+                     </div>
+                     
+                            <div class="panel panel-default" id="15">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#15" href="#collapseSub15">3. ¿Cuál es el costo de una reinstalación?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub15" class="panel-collapse collapse">
+                            <div class="panel-body txt1">
+En Santiago 1 UF + IVA (vía remota)<br />
+En regiones 1,5 UF + IVA. (vía remota)<br />
+En Santiago 2 UF + IVA.(asistencia técnica en terreno)<br />
+En regiones 2,5 UF + IVA.(asistencia técnica en terreno)</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsecinco">Red I-Med</a>
+                </h4>
+            </div>
+            <div id="collapsecinco" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="16">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#16" href="#collapseSub16">1. ¿Qué requisitos debo tener para pertenecer a la Red I-Med?1. ¿Qué trámites debo hacer para conseguir nuevos Convenios con Fonasa e Isapres?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub16" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Para contar con la posibilidad de contar con la emisión de Bonos Electrónicos para FONASA e ISAPRES, es importante destacar que usted debe disponer de la autorización de cada Financiador, ó al menos con la de un Financiador.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="17">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#17" href="#collapseSub17">2. ¿Cuáles son las Cajas de Compensación que pertenecen a la Red I-Med?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub17" class="panel-collapse collapse">
+                            <div class="panel-body txt1">
+                            Caja Los Andes <br />
+Caja 18 de Septiembre <br />
+Caja La Araucana<br />
+Caja Los Héroes</div>
+                        </div>
+                     </div>
+                     
+                             <div class="panel panel-default" id="18">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#18" href="#collapseSub18">3. ¿Cuáles son los prestadores que operan con cada Caja de Compensación?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub18" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Prestadores que operan con Caja Los Andes. <a href="cajalosandes.html" target="_self" class="ver_servicio"><u>Ver Listado » </u></a><br>
+                                Prestadores que operan con Caja 18 de Septiembre. <a href="caja18deseptiembre.html" target="_self" class="ver_servicio"><u>Ver Listado » </u></a><br>
+                                Prestadores que operan con Caja La Araucana. <a href="cajalaaraucana.html" target="_self" class="ver_servicio"><u>Ver Listado » </u></a><br>
+                                Prestadores que operan con Caja Los Herores. <a href="cajalosheroes.html" target="_self" class="ver_servicio"><u>Ver Listado » </u></a></div>
+                        </div>
+                     </div>
+                     
+                             <div class="panel panel-default" id="19">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#19" href="#collapseSub19">4. ¿Necesita encontrar Médicos, Centros Médicos, Clínicas y Hospitales con Bono Electrónico?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub19" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Para encontrar geográficamente un prestador cerca de su ubicación y según su financiador (Isapre o FONASA) utilice nuestro Buscador de Atenciones Médicas. <a href="http://redimed.cl/" target="_self" class="ver_servicio">Ver más »</a></div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseseis">Costos</a>
+                </h4>
+            </div>
+            <div id="collapseseis" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="20">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#20" href="#collapseSub20">1. ¿Cuál es el valor del Bono Electrónico?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub20" class="panel-collapse collapse">
+                            <div class="panel-body txt1">El valor del servicio es en modalidad de arriendo, a continuación los costos involucrados:
+
+Tabla de Valores por Puntos de Certificación: <br />
+• De 1 a 5 puntos, valor de 0,95UF por cada punto instalado <br />
+• De 6 a 15 puntos, valor de 0,86UF por cada punto instalado <br />
+• A partir del punto 16, valor es de 0,76UF por cada punto instalado <br />
+ <br />
+Transacción por Bono Emitido, FONASA 0,00537 UF <br />
+Transacción por Bono Emitido, ISAPRE sin costo <br />
+ <br />
+Implantación (Habilitación y capacitación), en Región Metropolitana 2UF más IVA;  en el caso de regiones 2,5UF más IVA, valor que se abona por única vez al momento de la firma de contrato.</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsesiete">Licencia Médica Electrónica</a>
+                </h4>
+            </div>
+            <div id="collapsesiete" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="21">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#21" href="#collapseSub21">1. ¿Cómo puedo adscribirme al Sistema Licencia Médica Electrónica? ¿Tiene costo?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub21" class="panel-collapse collapse">
+                            <div class="panel-body txt1">
+                            Para poder adscribirse, es necesario que usted nos envíe un correo electrónico a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a> con los siguientes datos:<br />
+• Razón Social<br />
+• Rut de la Empresa<br />
+• Nombre y Teléfono<br />
+• Datos de la persona encargada (email)<br />
+Y dentro de un plazo de 24 horas, le enviaremos vía e-mail, la clave asignada.<br />
+El trámite de Licencia Médica Electrónica, no tiene costo para el empleador.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="22">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#22" href="#collapseSub22">2. No reconoce la huella del paciente y/o doctor. ¿Qué sucede?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub22" class="panel-collapse collapse">
+                            <div class="panel-body txt1">a) ¿Está conectado el lector de huella en el equipo?, revise que el conector esté en el puerto USB habilitado.<br>
+                                b)   ¿Tiene los drivers instalados en el PC y actualizados?, en el caso de   que no tenga los drivers instalados, favor contáctase con el área de   informática del recinto. (Drivers en Web: <a href="http://www.autentia.cl/descargas" target="_blank" style="color: #3562B2;">www.autentia.cl/descargas</a>)<br>
+                                c) ¿Está limpio el lector? Si no es así, favor limpie con un scotch sobre el lector.<br>
+                                d) ¿Las manos presentan rastros de suciedad?, si  es así, limpiar el dedo a utilizar.<br>
+                                e) ¿Revisé los otros dedos del doctor?, intente con los otros dedos posibles que aparecerán en la imagen autentia.<br>
+                                f) ¿El médico y/o paciente están habilitados (enrolados) en el centro   médico y/o ISAPRE, respectivamente? Corrobore esta información con las   bases de datos de la entidades en cuestión.</div>
+                        </div>
+                     </div>
+                          <div class="panel panel-default" id="23">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#23" href="#collapseSub23">3. ¿He olvidado la clave de acceso al portal?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub23" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Favor enviar Nombre completo y Rut del Administrador a <a href="mailto:cau@i-med.cl" style="color: #3562B2;">cau@i-med.cl</a> para gestionar el cambio de clave.</div>
+                        </div>
+                     </div>
+                          <div class="panel panel-default" id="24">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#24" href="#collapseSub24">4. ¿No puedo ingresar al sitio?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub24" class="panel-collapse collapse">
+                            <div class="panel-body txt1">a) ¿Ingresó a la  dirección <a href="http://www.licencia.cl/" target="_blank" style="color: #3562B2;">www.licencia.cl</a>? Revise que este bien escrito, recuerde que no lleva tildes. <br>
+                                b) ¿Ingresó con el RUT del administrador y clave correcta? Si dice que no, se procederá un cambio de clave.<br>
+                                c) ¿Revisó   que tenga el acceso a Internet habilitado? Revise que   tenga conexión o póngase en contacto con el área de informática de su   empresa.</div>
+                        </div>
+                     </div>
+                          <div class="panel panel-default" id="25">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#25" href="#collapseSub25">5. Requisitos como profesional para emitir LME.</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub25" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Los requisitos es que el profesional debe tener la autorización de la SEREMI de Salud correspondiente y la del MINSAL. También tiene que estar designado dentro de las 3 especialidades emisoras de Licencia Medica los cuales son Médicos, Matronas y Dentistas.</div>
+                        </div>
+                     </div>
+                          <div class="panel panel-default" id="26">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#26" href="#collapseSub26">6. ¿Como adscribirse como empleador? ¿Tiene costo?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub26" class="panel-collapse collapse">
+                            <div class="panel-body txt1">La adscripción como empleador se realiza llamando al CAU (Centro de Atención a Usuarios), en el cual se guiara al prestador en este proceso, esta gestión es totalmente gratuita.</div>
+                        </div>
+                     </div>
+                          <div class="panel panel-default" id="27">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#27" href="#collapseSub27">7. Empleador con varias sucursales de RRHH.</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub27" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Esta gestión la Realiza el CAU y lo básico es que el prestador presente al CAU un listado Excel con la información individualizada de todas sus sucursales con los rut de todos los funcionarios de cada sucursal, dicha información se cargará en nuestros sistemas para poder derivar las Licencias Medicas a la sucursal que corresponde el funcionario.</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseocho">Sistema Bono Electrónico Inicio de Sesión</a>
+                </h4>
+            </div>
+            <div id="collapseocho" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="28">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#28" href="#collapseSub28">1. ¿Cómo debo ingresar al Sistema?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub28" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe ingresar con su rut, sin punto y con guión, si termina en K debe ser siempre con mayúscula.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="29">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#29" href="#collapseSub29">2. ¿Qué significa el mensaje: No tiene permiso para ejecutar la aplicación?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub29" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Ingreso mal el rut, favor intente nuevamente.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="30">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#30" href="#collapseSub30">3. Mensaje: El nombre del pc no calza con el almacenado en el registro. Comuniquese con soporte autentia?</a>
+                            </h4>30
+                        </div>
+                        <div id="collapseSub30" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Sólo debe aceptar, no hay inconveniente para la venta.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="31">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#31" href="#collapseSub31">4. ¿Se puede eliminar el mensaje que aparece cuando se cambia el nombre al pc?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub31" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Si, se elimina de la siguiente manera:<br />
+Mi pc<br />
+Disco C<br />
+Windows <br />
+Pcinfo.ini<br />
+Borrar</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="32">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#32" href="#collapseSub32">5. ¿Qué pasa si la Licencia ha expirado?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub32" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Se debe certificar el pc nuevamente siempre y cuando tenga el Registro anterior, o bien ver si perdió la aplicación.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="33">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#33" href="#collapseSub33">6. ¿Cómo saber si perdí la aplicación?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub33" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe ir a :<br />
+Mi pc<br />
+Ejecutar (colocar la palabra REGEDIT)<br />
+Luego pinchar: (abrir) HKEY-LOCAL-MACHINE <br />
+(abrir) SOFTWARE y verificar si existe la carpeta PCKY, si no encuentra esta carpeta, significa que perdió la aplicación y debera solicitar una reinstalación.</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsenueve">Sistema Bono Electrónico Venta</a>
+                </h4>
+            </div>
+            <div id="collapsenueve" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="34">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#34" href="#collapseSub34">1. ¿Qué debo hacer si al momento de valorizar aparecen los siguientes mensajes?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub34" class="panel-collapse collapse">
+                            <div class="panel-body txt1">• No existe precio<br />
+• Convenio no pactado<br />
+• Prestación no otorgable<br />
+• Para la prestación no permite la venta<br />
+• No autorizado por fina<br />
+Debe ser solucionado directamente por su financiador (Isapre – Fonasa)</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="35">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#35" href="#collapseSub35">2. ¿Qué significa el mensaje: Rut solicitante no esta en BD al ingresar Derivado Por?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub35" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Significa que el Doctor ingresado como Derivado Por no se encuentra en la base de datos del financiador (Isapre - Fonasa) y deberá contactarse directamente con su financiador.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="36">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#36" href="#collapseSub36">3. ¿Qué significa el mensaje: Trat. No relacionado con prest al ingresar médico Tratante?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub36" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Significa que el Profesional Médico no esta ingresado en lugar, debe contactarse con financiador (Fonasa - Isapre).</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="37">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#37" href="#collapseSub37">4. ¿Qué significa el mensaje: Médico tratante sin convenio?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub37" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Significa que no tiene convenio con financiador (Fonasa - Isapre).</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="38">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#38" href="#collapseSub38">5. ¿Qué debo hacer si al momento de vender un bono y certificar la huella no la reconoce?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub38" class="panel-collapse collapse">
+                            <div class="panel-body txt1">En el caso que tuviese enrolada su huella y no la toma, el beneficiario debera ir directamente a su financiador para que lo reenrolen.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="39">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#39" href="#collapseSub39">6. ¿Puedo sacar copia o reimprimir un bono Fonasa ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub39" class="panel-collapse collapse">
+                            <div class="panel-body txt1">No se puede, solamente puede pedir la copia directamente a Fonasa, a María Eugenis Gana (02) 5766614 o David Perez (02) 5766719.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="40">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#40" href="#collapseSub40">7. ¿Puedo anular un bono Fonasa?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub40" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Si, pero debe ser anulado dentro de las 24 hrs.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="41">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#41" href="#collapseSub41">8. ¿Puedo anular un bono Isapre?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub41" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Si, incluso puede ser anulado antes de la cobranza.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="42">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#42" href="#collapseSub42">9. ¿Cómo saber si quedo emitido un bono, ya que, al momento de imprimir hubo intermitencia?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub42" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Para saber si quedo emitido debe ingresar en la opción de copia de bono o anular, pichar signo de interrogación, ingresar rut del beneficiario y presionar buscar.</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+        
+        
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title h4txt">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsediez">Sistema Bono Electrónico Cobranza</a>
+                </h4>
+            </div>
+            <div id="collapsediez" class="panel-collapse collapse">
+                <div class="panel-body txt1">
+                     <div class="panel panel-default" id="43">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#43" href="#collapseSub43">1. ¿Cómo realizar una cobranza?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub43" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Para realizar las cobranzas de bonos a los financiadores en convenio, deberá ingresar desde el menú principal a Cobranza.<br />
+En cobranza podrá generar informes de:<br />
+• Pre-cobranza<br />
+• Desactivar o Activar Bonos para liquidación<br />
+• Generar reportes de cobranzas <br />
+• Obtener datos de facturación de la liquidación realizada</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="44">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#44" href="#collapseSub44">
+2. ¿Cómo buscar una cobranza ya realizada o cobranza antigua y volver a imprimirla?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub44" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Debe ir al menú principal cobranza y en “Criterios de Selección”, ingresar fecha desde y hasta.<br />
+En el caso que fuese realizada en el mismo día debera repetir la fecha y luego buscar, aparecerá la cobranza realizada para que pueda imprimir el Informe nuevamente.<br />
+En el caso de una cobranza antigua deberá ingresar fechas desde y hasta, eligiendo un rango de tiempo en el cual aparecerán las cobranzas.</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default" id="45">
+                         <div class="panel-heading">
+                            <h4 class="panel-title h3txt">
+                                <a data-toggle="collapse" data-parent="#45" href="#collapseSub45">3. ¿Qué pasa si en mi lista de Pre-cobranza falta un bono?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSub45" class="panel-collapse collapse">
+                            <div class="panel-body txt1">Deberá desactivarlo y una vez que tenga el bono podrá activarlo pudiendo cobrarlo en la próxima cobranza.</div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+         </div>
+ </div>
+</td>
+</tr>
+
+</table>
+
+<table width="915" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr><td height="20"></td></tr>
+<tr><td height="20" align="center" class="textofooter">I-Med S.A. - Teléfono: 2714 9500 - Email: comercial@i-med.cl - © 2015 Derechos Reservados - I-Med</td></tr>
+
+</table>
+
+
+
+
+
+</body>
+</html>
